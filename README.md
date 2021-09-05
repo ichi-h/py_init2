@@ -1,5 +1,7 @@
 # py_init2
 
+You can also use [the template in venv](https://github.com/ippee/py_init).
+
 Currently, this template is only available for Windows.
 
 This template uses pipenv and assumes that it will be used with VSCode.  
@@ -53,7 +55,7 @@ Install the packages you need in the working directory.
 
 ## Tasks
 
-In this template, frequently used commands are registered in tasks.json.
+In this template, the frequently used commands are registered in tasks.json.
 
 - Install
   - Install all the packages written in the Pipfile.
