@@ -6,9 +6,7 @@
     {
       "label": "Install",
       "type": "shell",
-      "windows": {
-        "command": "pipenv install"
-      },
+      "command": "pipenv install",
       "problemMatcher": []
     },
     {
@@ -17,6 +15,12 @@
       "windows": {
         "command": "pipenv shell -Command 'python ./src/main.py'"
       },
+      "osx": {
+        "command": "pipenv shell 'python ./src/main.py'"
+      },
+      "linux": {
+        "command": "pipenv shell 'python ./src/main.py'"
+      },
       "problemMatcher": []
     },
     {
@@ -24,6 +28,12 @@
       "type": "shell",
       "windows": {
         "command": "pipenv shell -Command 'python setup.py test'"
+      },
+      "osx": {
+        "command": "pipenv shell 'python setup.py test'"
+      },
+      "linux": {
+        "command": "pipenv shell 'python setup.py test'"
       },
       "problemMatcher": []
     }
