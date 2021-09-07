@@ -41,7 +41,7 @@ code .
 
 ### 4. Select interpreter
 
-Open the command palette (Win/Linux: "Ctrl + Shift + P", Mac: "Command + Shift + P") and select `Python: Select Interpreter`, then select the recommended interpreter.
+Open the command palette (Win/Linux: "Ctrl + Shift + P", Mac: "Command + Shift + P") and select `Python: Select Interpreter`, then select the recommended interpreter. (If it is not exist, enter the path of the interpreter in the virtual environment.)
 
 ### 5. Install packages
 
