@@ -16,10 +16,10 @@
         "command": "pipenv shell -Command 'python ./src/main.py'"
       },
       "osx": {
-        "command": "pipenv shell 'python ./src/main.py'"
+        "command": "pipenv shell 'python ./src/main.py; exit'"
       },
       "linux": {
-        "command": "pipenv shell 'python ./src/main.py'"
+        "command": "pipenv shell 'python ./src/main.py; exit'"
       },
       "problemMatcher": []
     },
@@ -30,10 +30,10 @@
         "command": "pipenv shell -Command 'python setup.py test'"
       },
       "osx": {
-        "command": "pipenv shell 'python setup.py test'"
+        "command": "pipenv shell 'python setup.py test; exit'"
       },
       "linux": {
-        "command": "pipenv shell 'python setup.py test'"
+        "command": "pipenv shell 'python setup.py test; exit'"
       },
       "problemMatcher": []
     }
